@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use App\Http\Requests\StorePostRequest;
 use App\Models\Post;
 use Illuminate\Auth\Access\AuthorizationException;
